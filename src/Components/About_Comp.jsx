@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { ReactTyped } from "react-typed";
+import dinesh from "../../public/Images/About1.jpeg";
+import hariram from "../../public/Images/About2.jpeg";
+import kalimuthu from "../../public/Images/About3.jpeg";
 
 const About_Comp = () => {
     const[one,setone]=useState(true);
@@ -26,7 +29,7 @@ const About_Comp = () => {
         <h1 data-aos="fade-up" className='text-center pb-[50px] text-[50px] font-bold text-white'>About</h1>
         {one && <div  className="w-full min-h-[10vh] flex md:flex-row flex-col" >
             <div data-aos="fade-right" className="w-full md:w-[50%] h-[70%] p-[20px] flex justify-center items-center" >
-                <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src="public/Images/About1.jpeg" alt="" />
+                <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src={dinesh} alt="" />
             </div>
             <div data-aos="fade-left" className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
             <ReactTyped className='text-[50px] font-bold text-green-600' strings={["Dinesh","Editor"]} typeSpeed={100} backSpeed={50} loop />
@@ -37,7 +40,7 @@ const About_Comp = () => {
 
         {two && <div className="w-full min-h-[10vh] flex md:flex-row flex-col">
             <div data-aos="fade-right" className="w-full md:w-[50%] h-[70%] p-[20px] flex justify-center items-center">
-                <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src="public/Images/About2.jpeg" alt="" />
+                <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src={hariram} alt="" />
             </div>
             <div data-aos="fade-left" className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
             <ReactTyped className='text-[50px] font-bold text-red-600' strings={["HariRam","Acting"]} typeSpeed={100} backSpeed={50} loop />
@@ -47,7 +50,7 @@ const About_Comp = () => {
         </div>}
         {three && <div className="w-full min-h-[10vh] flex md:flex-row flex-col">
             <div data-aos="fade-right" className="w-full md:w-[50%] h-[70%] p-[20px] flex justify-center items-center">
-                <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src="public/Images/About3.jpeg" alt="" />
+                <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src={kalimuthu} alt="" />
             </div>
             <div data-aos="fade-left" className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
             <ReactTyped className='text-[50px] font-bold text-blue-600' strings={["KaliMuthu","Camera Man"]} typeSpeed={100} backSpeed={50} loop />
@@ -55,10 +58,10 @@ const About_Comp = () => {
                 Kailmuthu is a seasoned cameraman known for his impeccable technical prowess and creative flair behind the lens. With a knack for capturing breathtaking visuals and enhancing the director's vision, he consistently delivers cinematography that leaves a lasting impact on audiences worldwide.</p>
             </div>
         </div>}
-        <div className="w-full h-[50%] p-[20px] flex justify-evenly items-center gap-[20px] flex-col md:flex-row">
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickone} className='cursor-pointer w-[200px] h-[200px] rounded-[30px]' src="public/Images/About1.jpeg" alt="" />
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clicktwo} className='cursor-pointer w-[200px] h-[200px] rounded-[30px]' src="public/Images/About2.jpeg" alt="" />
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickthree} className='cursor-pointer w-[200px] h-[200px] rounded-[30px]' src="public/Images/About3.jpeg" alt="" />
+        <div className="w-full h-[50%] p-[20px] flex justify-evenly items-center gap-[20px] flex-row p-[20px]">
+                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickone} className='cursor-pointer w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-[30px]' src={dinesh} alt="dinesh" />
+                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clicktwo} className='cursor-pointer w-[100px] h-[150px] md:w-[200px] md:h-[200px] rounded-[30px]' src={hariram} alt="hari" />
+                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickthree} className='cursor-pointer w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-[30px]' src={kalimuthu} alt="kali" />
             </div>
     </div>    
     </>  

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import Vid1 from "../../public/Images/WhatsApp Video 2024-07-22 at 11.49.49 AM.mp4"
+import haribeach from "../../public/Images/beach.jpeg" 
+import dinesh from "../../public/Images/About2.jpeg"
 
 const Skills_Comp = () => {
 
@@ -20,7 +22,7 @@ const Skills_Comp = () => {
       <div className="w-full min-h-[90vh] flex justify-center items-center">
         <div className="w-[80%] min-h-[80%] py-[10px] flex gap-[10px] flex-col justify-around items-center">
           <div data-aos="fade-in" className="flex justify-center items-center flex-col md:flex-row text-black w-[90%] min-h-[50%]">
-            <img className=' w-[200px] min-h-[200px] rounded-[20px]' src="public/Images/Beach.jpeg" alt="" />
+            <img className=' w-[200px] min-h-[200px] rounded-[20px]' src={haribeach} alt="" />
             {one &&<div data-aos="fade-left" className="p-[20px] md:w-[70%]  bg-gray-600 m-[20px]  rounded-[20px]">
               <h1 className='text-[40px] font-semibold text-gray-300'>HariRam</h1>
               <p className='text-[25px] text-gray-900'>
@@ -34,7 +36,7 @@ const Skills_Comp = () => {
             <button className='w-[100px] h-[50px] rounded-[40px]  bg-red-700 px-[20px] py-[10px] text-black' onClick={Clickone}>Click</button>
           </div>
           <div data-aos="fade-in" className="flex justify-center items-center flex-col md:flex-row text-black w-[90%] min-h-[50%]">
-            <img className=' w-[200px] min-h-[200px] rounded-[20px]' src="public/Images/About1.jpeg" alt="" />
+            <img className=' w-[200px] min-h-[200px] rounded-[20px]' src={dinesh} alt="" />
             {two && <div data-aos="fade-left" className="p-[20px] md:w-[70%]  bg-gray-600 m-[20px]  rounded-[20px]">
               <h1 className='text-[40px] font-semibold text-gray-300' >Dinesh</h1>
               <p className='text-[25px] text-gray-900'>
