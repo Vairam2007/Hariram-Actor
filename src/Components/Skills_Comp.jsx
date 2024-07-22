@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Vid1 from "../../public/Images/WhatsApp Video 2024-07-22 at 11.49.49 AM.mp4"
 import haribeach from "../../public/Images/beach.jpeg" 
-import dinesh from "../../public/Images/About2.jpeg"
+import dinesh from "../../public/Images/About1.jpeg"
 
 const Skills_Comp = () => {
 
