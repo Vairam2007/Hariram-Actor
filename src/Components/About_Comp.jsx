@@ -58,10 +58,10 @@ const About_Comp = () => {
                 Kailmuthu is a seasoned cameraman known for his impeccable technical prowess and creative flair behind the lens. With a knack for capturing breathtaking visuals and enhancing the director's vision, he consistently delivers cinematography that leaves a lasting impact on audiences worldwide.</p>
             </div>
         </div>}
-        <div className="w-full h-[50%] p-[20px] flex justify-evenly items-center gap-[20px] flex-row p-[20px]">
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickone} className='cursor-pointer w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-[30px]' src={dinesh} alt="dinesh" />
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clicktwo} className='cursor-pointer w-[100px] h-[150px] md:w-[200px] md:h-[200px] rounded-[30px]' src={hariram} alt="hari" />
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickthree} className='cursor-pointer w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-[30px]' src={kalimuthu} alt="kali" />
+        <div className="w-full h-[50%] p-[20px] flex justify-evenly items-center gap-[20px] flex-row py-[20px] pr-[20px] sm:m-0 -m:15px">
+                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickone} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={dinesh} alt="dinesh" />
+                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clicktwo} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={hariram} alt="hari" />
+                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickthree} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={kalimuthu} alt="kali" />
             </div>
     </div>    
     </>  
