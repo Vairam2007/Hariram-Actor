@@ -22,8 +22,8 @@ const Skills_Comp = () => {
 
   return (
     <>
-    <div id='Skills' className="p-[50px] w-full min-h-[100vh] bg-gray-700 text-white">
-      <h1 data-aos="fade-up" className='text-[40px] font-bold text-center'>Skills</h1>
+    <div id='Skills' className="py-[50px] w-full min-h-[100vh] bg-gray-700 text-white overflow-hidden">
+      <h1 data-aos="fade-up" className='text-[40px] font-bold text-center '>Skills</h1>
       <div className="w-full min-h-[90vh] flex justify-center items-center">
         <div className="w-full sm:w-[80%] min-h-[80%] py-[10px] flex gap-[30px] flex-col justify-around items-center">
           <div data-aos="fade-in" className=" flex justify-center items-center flex-col md:flex-row text-black w-[90%] min-h-[50%]">

@@ -23,7 +23,7 @@ const Navbar = () => {
             </ul>
         </div>
     </div>
-    {open &&<div data-aos="fade-out" className="w-full min-h-[10vh] bg-gray-700 duration-0 md:hidden flex justify-center items-center  ">
+    {open &&<div data-aos="fade-out" className="w-full min-h-[10vh] bg-gray-700 md:hidden flex justify-center items-center  ">
             <ul className='h-[10vh] w-full flex justify-evenly items-center'>
                 <li className='px-[20px] bg-blue-400 py-[5px] rounded-[20px] hover:bg-blue-600 duration-1000'><a href="#Home">Home</a></li>
                 <li className='px-[20px] bg-blue-400 py-[5px] rounded-[20px] hover:bg-blue-600 duration-1000'><a href="#About">About</a></li>

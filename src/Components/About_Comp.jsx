@@ -25,7 +25,7 @@ const About_Comp = () => {
     }
   return (
     <>
-    <div id='About' className="w-full min-h-[100vh] bg-gray-800 text-white p-[50px] overflow-hidden">
+    <div id='About' className="w-full min-h-[100vh] bg-gray-800 text-white py-[50px] overflow-hidden">
         <h1 data-aos="fade-up" className='text-center pb-[50px] text-[50px] font-bold text-white'>About</h1>
         {one && <div  className="w-full min-h-[10vh] flex md:flex-row flex-col" >
             <div data-aos="fade-right" className="w-full md:w-[50%] h-[70%] p-[20px] flex justify-center items-center" >
