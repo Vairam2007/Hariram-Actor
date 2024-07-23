@@ -31,7 +31,7 @@ const About_Comp = () => {
             <div data-aos="fade-right" className="w-full md:w-[50%] h-[70%] p-[20px] flex justify-center items-center" >
                 <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src={dinesh} alt="" />
             </div>
-            <div data-aos="fade-left" className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
+            <div data-aos="fade-left" data-aos-delay='400' className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
             <ReactTyped className='text-[50px] font-bold text-green-600' strings={["Dinesh","Editor"]} typeSpeed={100} backSpeed={50} loop />
                 <p className="text-[25px]">
                 Dinesh is a versatile editor, renowned for his ability to navigate diverse genres and styles with finesse. His sharp editorial instincts and deep understanding of storytelling elevate each project to new heights, earning him a reputation as a sought-after professional in the world of publishing.</p>
@@ -42,7 +42,7 @@ const About_Comp = () => {
             <div data-aos="fade-right" className="w-full md:w-[50%] h-[70%] p-[20px] flex justify-center items-center">
                 <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src={hariram} alt="" />
             </div>
-            <div data-aos="fade-left" className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
+            <div data-aos="fade-left" data-aos-delay='400' className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
             <ReactTyped className='text-[50px] font-bold text-red-600' strings={["HariRam","Acting"]} typeSpeed={100} backSpeed={50} loop />
                 <p className="text-[25px]">
                 Hariram is a chameleon-like actor known for his ability to seamlessly slip into any role, whether it's a comedic character or a deeply emotional one. His skillful portrayal and nuanced performances consistently captivate audiences, solidifying his status as a versatile talent in the entertainment industry.</p>
@@ -52,7 +52,7 @@ const About_Comp = () => {
             <div data-aos="fade-right" className="w-full md:w-[50%] h-[70%] p-[20px] flex justify-center items-center">
                 <img style={{boxShadow:"3px 3px 5px white"}} className='w-[90wv] h-[60vh] rounded-[40px]' src={kalimuthu} alt="" />
             </div>
-            <div data-aos="fade-left" className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
+            <div data-aos="fade-left" data-aos-delay='400' className="w-full md:w-[50%] h-[50%] p-[20px] text-center md:text-start ">
             <ReactTyped className='text-[50px] font-bold text-blue-600' strings={["KaliMuthu","Camera Man"]} typeSpeed={100} backSpeed={50} loop />
                 <p className="text-[25px]">
                 Kailmuthu is a seasoned cameraman known for his impeccable technical prowess and creative flair behind the lens. With a knack for capturing breathtaking visuals and enhancing the director's vision, he consistently delivers cinematography that leaves a lasting impact on audiences worldwide.</p>
@@ -60,8 +60,8 @@ const About_Comp = () => {
         </div>}
         <div className="w-full h-[50%] p-[20px] flex justify-evenly items-center gap-[20px] flex-row py-[20px] pr-[20px] sm:m-0 -m:15px">
                 <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickone} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={dinesh} alt="dinesh" />
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clicktwo} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={hariram} alt="hari" />
-                <img data-aos="fade-up" style={{boxShadow:"0 0 10px black"}} onClick={Clickthree} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={kalimuthu} alt="kali" />
+                <img data-aos="fade-up" data-aos-delay='500' style={{boxShadow:"0 0 10px black"}} onClick={Clicktwo} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={hariram} alt="hari" />
+                <img data-aos="fade-up" data-aos-delay='1000' style={{boxShadow:"0 0 10px black"}} onClick={Clickthree} className='cursor-pointer w-[70px] h-[100px] md:w-[200px] md:h-[200px] rounded-[30px]' src={kalimuthu} alt="kali" />
             </div>
     </div>    
     </>  

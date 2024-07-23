@@ -32,8 +32,8 @@ const Skills_Comp = () => {
               <h1 className='text-[40px] font-semibold text-gray-300'>HariRam</h1>
               <p className='text-[25px] text-gray-900'>
               1. Versatile Performances: Hariram displays diverse roles. <br />
-2. Emotional Depth: He conveys feelings convincingly. <br />
-3. Natural Charisma: Hariram captivates audiences.
+              2. Emotional Depth: He conveys feelings convincingly. <br />
+              3. Natural Charisma: Hariram captivates audiences.
 </p>
             </div>}
             {
@@ -49,9 +49,9 @@ const Skills_Comp = () => {
               <h1 className='text-[40px] font-semibold text-gray-300' >Dinesh</h1>
               <p className='text-[25px] text-gray-900'>
               1. Precision in Cuts: Dinesh edits meticulously. <br />
-2. Creative Flow Control: He shapes narratives fluidly. <br />
-3. Timely Delivery: Dinesh meets deadlines reliably.
-</p>
+              2. Creative Flow Control: He shapes narratives fluidly. <br />
+              3. Timely Delivery: Dinesh meets deadlines reliably.
+              </p>
             </div>}
             { 
               !two && <div className="p-[20px] h-[300px] md:w-[70%] w-[70%] flex justify-center items-center ">
@@ -65,10 +65,9 @@ const Skills_Comp = () => {
             {three &&<div data-aos="fade-left" className="p-[20px] md:w-[70%]  bg-gray-600 m-[20px]  rounded-[20px]">
               <h1 className='text-[40px] font-semibold text-gray-300'>Kalimuthu</h1>
               <p className='text-[25px] text-gray-900'>
-              
- 1. Technical Proficiency: Kalimuthu masterfully handles cameras. <br />
- 2. Artistic Vision: He frames scenes creatively. <br />
- 3. Storytelling Through Lens: Kalimuthu captures narratives visually.</p>
+              1. Technical Proficiency: Kalimuthu masterfully handles cameras. <br />
+              2. Artistic Vision: He frames scenes creatively. <br />
+              3. Storytelling Through Lens: Kalimuthu captures narratives visually.</p>
             </div>}
             {
               !three && <div className="p-[20px] h-[300px] md:w-[70%] w-[70%] flex justify-center items-center ">
@@ -87,5 +86,4 @@ const Skills_Comp = () => {
     </>
   )
 }
-
 export default Skills_Comp

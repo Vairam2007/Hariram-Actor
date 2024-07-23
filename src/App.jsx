@@ -8,7 +8,7 @@ function App() {
 
   useEffect(()=>{
     Aos.init({
-        duration:1500
+        duration:2000
     });
   },[])
 
