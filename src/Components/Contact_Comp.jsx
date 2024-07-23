@@ -19,7 +19,7 @@ const Contact_Comp = () => {
               <h1 className='min-w-[100px] h-[50px] flex justify-center items-center text-[25px] font-semibold'>silent_killer_hariram</h1>
               <a className='w-full sm:w-[100px] flex justify-center items-center' href="https://www.instagram.com/silent_killer_hariram/"  target='blank'><FaInstagramSquare className='text-pink-700 bg-white w-[50px] h-[50px] md:ml-[20px]'/></a>
           </div>
-          <div data-aos="fade-out" data-aos-delay='1000' className="min-w-[80%] p-[10px] rounded-[20px] bg-gray-400 md:flex-row flex-col flex gap-[30px] justify-between items-center">
+          <div data-aos="fade-out" data-aos-delay='900' className="min-w-[80%] p-[10px] rounded-[20px] bg-gray-400 md:flex-row flex-col flex gap-[30px] justify-between items-center">
               <h1 className="sm:w-[200px] w-full h-[50px] bg-gray-600 flex justify-center items-center font-bold">Youtube :</h1>
               <h1 className='min-w-[100px] h-[50px] flex justify-center items-center text-[25px] font-semibold'>HR Creation</h1>
               <a className='w-full sm:w-[100px] flex justify-center items-center ' href="https://www.youtube.com/@hrcreations207?si=4Xonm8CnhglOL9ti" target='blank'><FaYoutube className='text-red-800 bg-white w-[50px] h-[50px] md:ml-[20px]'/></a>
